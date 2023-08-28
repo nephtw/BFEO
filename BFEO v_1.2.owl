@@ -1,0 +1,1135 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nop87su/ontologies/2023/0/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/nop87su/ontologies/2023/0/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/nop87su/ontologies/2023/0/untitled-ontology-8"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aggregation_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backward_Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customs_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deliver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disaggregation_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamic_Eventtypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External_traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forward_Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forward_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GS1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_System_Transaction_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Product_traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Quality_Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal_traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Make"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output_Product_Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output_Quality_Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SCOR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Static_Eventtypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timestamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Token_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Track"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transformation_Event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Client_AccountID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CustomerID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CustomsID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eventtype_OrderID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Experation_Date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InputID_List"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Material_Amount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OrganizationID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ProductID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Q-Contact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#QMRefID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Smart_Contract_Address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#State_OrderID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#State_TRU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Storage_of_products"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SystemID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TRU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Timestamp_ERP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Timestamp_Transaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TokenID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UBID_batchID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UIID_serialID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Client_AccountID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CustomerID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CustomsID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Eventtype_OrderID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Experation_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InputID_List"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Material_Amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrganisationID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProductID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Q-Contact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#QMRefID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Smart_Contract_Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#State_OrderID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#State_TRU"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Storage_of_Product"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SystemID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TRU"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Timestamp_ERP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Timestamp_Transaction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TokenID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UBID_batchID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UIID_serialID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_D"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aggregation_Event"/>
+        <Class IRI="#GS1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backward_Traceability"/>
+        <Class IRI="#Trace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burn"/>
+        <Class IRI="#Token_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customs_Event"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deliver"/>
+        <Class IRI="#SCOR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disaggregation_Event"/>
+        <Class IRI="#GS1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamic_Eventtypes"/>
+        <Class IRI="#Track"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Internal_traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise_system"/>
+        <Class IRI="#Internal_traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External_traceability"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forward_Traceability"/>
+        <Class IRI="#Trace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forward_Tracking"/>
+        <Class IRI="#Track"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GS1"/>
+        <Class IRI="#Static_Eventtypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_System_Transaction_Event"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Product_traceability"/>
+        <Class IRI="#Forward_Traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Quality_Traceability"/>
+        <Class IRI="#Forward_Traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal_traceability"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Forward_Tracking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Make"/>
+        <Class IRI="#SCOR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint"/>
+        <Class IRI="#Token_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object_Event"/>
+        <Class IRI="#GS1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#External_traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output_Product_Traceability"/>
+        <Class IRI="#Backward_Traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output_Quality_Traceability"/>
+        <Class IRI="#Backward_Traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Customer"/>
+        <Class IRI="#External_traceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_Event"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#Static_Eventtypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCOR"/>
+        <Class IRI="#Static_Eventtypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sales"/>
+        <Class IRI="#Token_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#SCOR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Forward_Tracking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Static_Eventtypes"/>
+        <Class IRI="#Trace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timestamp"/>
+        <Class IRI="#Forward_Tracking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Token_Events"/>
+        <Class IRI="#Static_Eventtypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer"/>
+        <Class IRI="#Token_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transformation_Event"/>
+        <Class IRI="#GS1"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Aggregation_Event"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enterprise_system"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input_Product_traceability"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aggregation_Event"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enterprise_system"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input_Product_traceability"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aggregation_Event"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enterprise_system"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input_Product_traceability"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aggregation_Event"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deliver"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enterprise_system"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Output_Product_Traceability"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_A"/>
+        <NamedIndividual IRI="#Product_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_B"/>
+        <NamedIndividual IRI="#Product_B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_C"/>
+        <NamedIndividual IRI="#Product_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_D"/>
+        <NamedIndividual IRI="#Product_D"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_A"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_B"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_C"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TRU"/>
+        <NamedIndividual IRI="#Product_D"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Client_AccountID"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CustomerID"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CustomsID"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+        <ObjectProperty IRI="#TRU"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Eventtype_OrderID"/>
+        <ObjectProperty IRI="#TRU"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Experation_Date"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Ownership"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#InputID_List"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Lot"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Material_Amount"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OrganizationID"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ProductID"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Q-Contact"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#QMRefID"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Smart_Contract_Address"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#State_OrderID"/>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#State_TRU"/>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Static_Objects"/>
+        <ObjectProperty IRI="#TRU"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Storage_of_products"/>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SystemID"/>
+        <ObjectProperty IRI="#Has_Ownership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Timestamp_ERP"/>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Timestamp_Transaction"/>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TokenID"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UBID_batchID"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UIID_serialID"/>
+        <ObjectProperty IRI="#Static_Objects"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Client_AccountID"/>
+        <Class IRI="#Enterprise_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CustomerID"/>
+        <Class IRI="#Private_Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CustomsID"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Dynamic_Objects"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eventtype_OrderID"/>
+        <Class IRI="#Dynamic_Eventtypes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eventtype_OrderID"/>
+        <Class IRI="#Static_Eventtypes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Experation_Date"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InputID_List"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Material_Amount"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Material_Amount"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OrganizationID"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ProductID"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ProductID"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Smart_Contract_Address"/>
+        <Class IRI="#Enterprise_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#State_OrderID"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#State_TRU"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Static_Objects"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Storage_of_products"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SystemID"/>
+        <Class IRI="#Enterprise_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TRU"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TRU"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Timestamp_ERP"/>
+        <Class IRI="#Timestamp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Timestamp_Transaction"/>
+        <Class IRI="#Timestamp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TokenID"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TokenID"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UBID_batchID"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UIID_serialID"/>
+        <Class IRI="#Trace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UIID_serialID"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyDomain>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CustomerID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Eventtype_OrderID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Experation_Date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InputID_List"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#QMRefID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#State_OrderID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TRU"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TokenID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#UBID_batchID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Client_AccountID"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CustomerID"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CustomsID"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eventtype_OrderID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eventtype_OrderID"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Experation_Date"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#InputID_List"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#InputID_List"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lot"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Material_Amount"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Material_Amount"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OrganisationID"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProductID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProductID"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Q-Contact"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#QMRefID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Smart_Contract_Address"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#State_OrderID"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#State_TRU"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Storage_of_Product"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SystemID"/>
+        <Class IRI="#Role"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TRU"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TRU"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Timestamp_ERP"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Timestamp_Transaction"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TokenID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TokenID"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UBID_batchID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UIID_serialID"/>
+        <Class IRI="#Trace"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UIID_serialID"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Client_AccountID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CustomerID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CustomsID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Eventtype_OrderID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Experation_Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#InputID_List"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lot"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Material_Amount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OrganisationID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProductID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Q-Contact"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#QMRefID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Smart_Contract_Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#State_OrderID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#State_TRU"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Storage_of_Product"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SystemID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TRU"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Timestamp_ERP"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Timestamp_Transaction"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TokenID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UBID_batchID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UIID_serialID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_A</IRI>
+        <IRI>#Product_D</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_A</IRI>
+        <IRI>#SystemID</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_A</IRI>
+        <IRI>#TRU</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_A</IRI>
+        <IRI>#Trace</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_B</IRI>
+        <IRI>#Product_D</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_B</IRI>
+        <IRI>#SystemID</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_B</IRI>
+        <IRI>#TRU</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_B</IRI>
+        <IRI>#Trace</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_C</IRI>
+        <IRI>#Product_D</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_C</IRI>
+        <IRI>#SystemID</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_C</IRI>
+        <IRI>#TRU</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_C</IRI>
+        <IRI>#Trace</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#Product_A</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#Product_B</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#Product_C</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#SystemID</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#TRU</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Product_D</IRI>
+        <IRI>#Trace</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>rdfs:isDefinedBy</AbbreviatedIRI>
+        <IRI>#TRU</IRI>
+    </AnnotationAssertion>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Non_safety_finish_output</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Non_safety_raw_input</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Safety_finish_output</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Safety_raw_input</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
